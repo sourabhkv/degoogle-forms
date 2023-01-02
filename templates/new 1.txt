@@ -1,0 +1,110 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:38:44
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Dec/2022 16:39:12] "GET / HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[29/Dec/2022 16:39:13] "GET /favicon.ico HTTP/1.1" 404 2335
+[29/Dec/2022 16:39:19] "GET /register HTTP/1.1" 301 0
+[29/Dec/2022 16:39:19] "GET /register/ HTTP/1.1" 200 327
+Forbidden (Origin checking failed - https://7800-175-100-149-75.in.ngrok.io does not match any trusted origins.): /register/
+[29/Dec/2022 16:39:23] "POST /register/ HTTP/1.1" 403 2587
+D:\djEnv\event\event\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:40:35
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+D:\djEnv\event\event\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:40:36
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Dec/2022 16:40:58] "GET / HTTP/1.1" 200 327
+Forbidden (Origin checking failed - https://7800-175-100-149-75.in.ngrok.io does not match any trusted origins.): /
+[29/Dec/2022 16:41:02] "POST / HTTP/1.1" 403 2587
+D:\djEnv\event\event\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:43:40
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+D:\djEnv\event\event\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:44:00
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+D:\djEnv\event\event\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 29, 2022 - 16:44:26
+Django version 4.1.4, using settings 'event.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Not Found: /register/
+[29/Dec/2022 16:44:39] "GET /register/ HTTP/1.1" 404 2325
+[29/Dec/2022 16:44:47] "GET / HTTP/1.1" 200 327
+<QueryDict: {'csrfmiddlewaretoken': ['id4zzHmtGWTzZiUac42dXfasOsu0oQrfoHNeNDWPi7NcByzXgavnfQskFFnEjMtf'], 'Name': ['SOURABH KUMAR VERMA'], 'email': ['sourabhkv96@gmail.com']}>
+[29/Dec/2022 16:44:50] "POST / HTTP/1.1" 200 327
+[29/Dec/2022 16:45:14] "GET / HTTP/1.1" 200 327
+[29/Dec/2022 16:45:15] "GET / HTTP/1.1" 200 327
+<QueryDict: {'csrfmiddlewaretoken': ['ddb1BzfGzWkcZYqouCNfbZIYJQXiChwBjHUGPvP2b7ePBe5byIgptA0QA3QWxdyB'], 'Name': ['sourav'], 'email': ['souravkv002@gmail.com']}>
+[29/Dec/2022 16:46:28] "POST / HTTP/1.1" 200 327
+[29/Dec/2022 16:46:51] "GET / HTTP/1.1" 200 327
+Not Found: /favicon.ico
+[29/Dec/2022 16:46:52] "GET /favicon.ico HTTP/1.1" 404 2331
+<QueryDict: {'csrfmiddlewaretoken': ['Y5D7teydaPPccVEwnB5qWl9vORQ5UPrvfvPGSnhzWjmzzv0gHswNRaMhjzTnjAm5'], 'Name': ['Sss'], 'email': ['sumitsharmavr8761@gmail.com']}>
+[29/Dec/2022 16:47:00] "POST / HTTP/1.1" 200 327
+[29/Dec/2022 17:01:44] "GET / HTTP/1.1" 200 327
+Not Found: /favicon.ico
+[29/Dec/2022 17:01:44] "GET /favicon.ico HTTP/1.1" 404 2331
+<QueryDict: {'csrfmiddlewaretoken': ['ZKCLZPiDl3qvcRvjCF24zWwL6qW42Yh6tgTWgLQnqnAuo3enggbLzIHIZEWd7bQC'], 'Name': ['sushil'], 'email': ['rajputsushil642@gmail.com']}>
+[29/Dec/2022 17:02:17] "POST / HTTP/1.1" 200 327
+<QueryDict: {'csrfmiddlewaretoken': ['vlA1X6lEuWhTkgIdPosZNH28F4tDLg7sZRRce2TozgrSwsrhtZBGNtd5yitMQtGY'], 'Name': ['sushil'], 'email': ['sushilcsec@gmail.com']}>
+[29/Dec/2022 17:03:13] "POST / HTTP/1.1" 200 327
+[29/Dec/2022 17:03:54] "GET / HTTP/1.1" 200 327
+<QueryDict: {'csrfmiddlewaretoken': ['Cctey7f25ZS0VxbBn1LAth0yw6UDtpwIIGcTM3PoHaMDxNQor7eKLSiqnjNholyI'], 'Name': ['shubham'], 'email': ['sourabhkv76@gmail.com']}>
+[29/Dec/2022 17:04:28] "POST / HTTP/1.1" 200 327
+[29/Dec/2022 17:06:19] "GET / HTTP/1.1" 200 327
+<QueryDict: {'csrfmiddlewaretoken': ['lb8FxaRCU16A6O2K4xWoZdxxxdVM0eWErFRkL6rYwc0dI4Hx8DpyhOPpoqOqVaYE'], 'Name': ['shlok'], 'email': ['sourabhkv66@gmail.com']}>
+[29/Dec/2022 17:06:39] "POST / HTTP/1.1" 200 327
+
+(venv) D:\djEnv\event>
