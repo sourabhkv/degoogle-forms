@@ -1,0 +1,173 @@
+body{
+    background-color:#e5d7e7;
+}
+
+
+.bigbox{
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding:0;
+    width:640px;   
+    /* height: 2314.67px; */
+    margin: auto;
+    align-items: center;
+    word-wrap: break-word;
+    /* margin:0px 0px 12px; */
+}
+
+.box{
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+
+.blueline{
+    background-color: rgb(103, 58, 183);
+    color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+}
+.description{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #202124;
+    margin-top: 12px;
+}
+.Email{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+.Saccount{
+    white-space: nowrap;
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.firstd{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+    margin-top: 12px;
+}
+
+.required{
+    color:#d93025;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.name,.Usn,.MAil,.Semester,.Branch,.planguage,.Rating{
+    font-size: 12pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+.star{
+    color: #d93025;
+    padding-left: 0.25em;
+}
+.nstar,.ustar,.mstar,.sstar,.bstar,.pstar,.rstar{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.name1,.usn,.email,.semester,.branch,.language,.rating{
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    align-items: center;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+   
+}
+
+
+  a.button {
+    top:50%;
+    background-color:#1a73e8;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    
+  }
+  a.ButtoN:link, a.ButtoN:visited {
+    background-color: #1a73e8;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  a.ButtoN:hover, a.ButtoN:active {
+    background-color: #1a73e8;
+  }
+
+  a.CleaR:link, a.CleaR:visited {
+  
+    color: rgb(103, 58, 183);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+  }
+/* span.CleaR{
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0;
+    color: rgb(103, 58, 183);   
+} */
+.instruction{
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: #70757a;
+    color: rgba(0,0,0,.66);
+    margin-top: 8px;
+}
+.footer{
+    font: 400 12px Helvetica,Arial,sans-serif;
+    margin: 16px 0;
+    padding: 0 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.66);
+}

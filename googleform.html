@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="googleform.css">
+</head>
+<body>
+    <div class="bigbox">
+    <div class="box">
+        <div class="blueline"></div>
+        <div class="firstbox">
+    <h1>Name Of The Form</h1>
+    <div class="description"><p>Description</p>
+    </div>
+</div>
+    <hr>
+    <div class="email2" id="color">
+        <div class="Email">
+            <span class="mail">abscde12@gmail.com</span>
+            <a  class="Saccount" href="/accounts">Switch Account</a>
+        </div> 
+    <div class="firstd">The name and photo associated with your google account will be recorded when you upload files and submit this form .Only the email you enter is part of your response.</div>
+    <div class="required">*Required</div>
+</div>
+</div>
+<!-- <hr> -->
+<div class="name1">
+<div>
+    <form action="/submit-form">
+        <div>
+            <p>
+                <!-- <div class="nstar"> -->
+                <label for="name" class="name">Name</label>
+                <span class="star">*</span>
+                <!-- </div> -->
+                <br>
+                <div>
+                    <input type="text" placeholder="Your Answer" id="name" name="name" required>
+                </div>
+            </p>
+        </div>
+    </form>
+</div>
+</div>
+<!-- <hr> -->
+<div class="usn">
+<div>
+    <form action="/submit-form">
+        <div>
+            <p>
+                <!-- <div class="ustar"> -->
+                <label for="usn" class="Usn">USN</label>
+                <span class="star">*</span>
+            <!-- </div> -->
+                <br>
+                <div>
+                    <input type="text" placeholder="Your Answer" id="usn" name="usn" required>
+                </div>
+            </p>
+        </div>
+    </form>
+</div>
+</div>
+<!-- <hr> -->
+<div class="email">
+    <div>
+        <form action="/submit-form">
+            <div>
+                <p>
+                    <!-- <div class="estar"> -->
+                    <label for="email" class="MAil">Email</label>
+                    <span class="star">*</span>
+                <!-- </div> -->
+                    <br>
+                    <div>
+                        <input type="email" placeholder="Your Anwer" id="email" name="email" required>
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="semester">
+    <div>
+        <form action="/submit-form">
+            <div>
+                <p>
+                    <!-- <div class="sstar"> -->
+                    <label for="semester" class="Semester" aria-required="true">Semester</label>
+                    <span class="star">*</span>
+                <!-- </div> -->
+                    <br>
+                    <div>
+                        <input type="radio" name="semester" id="first" value="first">
+                        <label for="first">1st</label><br>
+                        <input type="radio" name="semester" id="second" value="second">
+                        <label for="second">2nd</label><br>
+                        <input type="radio" name="semester" id="third" value="third">
+                        <label for="third">3rd</label><br>
+                        <input type="radio" name="semester" id="fourth" value="fourth">
+                        <label for="fourth">4th</label><br>
+                        <input type="radio" name="semester" id="fifth" value="fifth">
+                        <label for="fifth">5th</label><br>
+                        <input type="radio" name="semester" id="sixth" value="sixth">
+                        <label for="sixth">6th</label><br>
+                        <input type="radio" name="semester" id="seventh" value="seventh">
+                        <label for="seventh">7th</label><br>
+                        <input type="radio" name="semester" id="eighth" value="eighth">
+                        <label for="eighth">8th</label><br>
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="branch">
+    <div>
+        <form action="/submit-form">
+            <div>
+                <p>
+                    <!-- <div class="bstar"> -->
+                    <label for="branch" class="Branch" aria-required="true">Branch</label>
+                    <span class="star">*</span>
+                <!-- </div> -->
+                    <br>
+                    <div>
+                        <input type="radio" name="branch" id="cse" value="cse">
+                        <label for="cse">CSE</label><br>
+                        <input type="radio" name="branch" id="ise" value="ise">
+                        <label for="ise">ISE</label><br>
+                        <input type="radio" name="branch" id="aiml" value="aiml">
+                        <label for="aiml">AIML</label><br>
+                        <input type="radio" name="branch" id="ece" value="ece">
+                        <label for="ece">ECE</label><br>
+                        <input type="radio" name="branch" id="ete" value="ete">
+                        <label for="ete">ETE</label><br>
+                        <input type="radio" name="branch" id="cv" value="cv">
+                        <label for="cv">CV</label><br>
+                        <input type="radio" name="branch" id="me" value="me">
+                        <label for="me">ME</label><br>
+                        <input type="radio" name="branch" id="im" value="im">
+                        <label for="im">IM</label><br>
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="language">
+    <div>
+        <form action="/submit-form">
+            <div>
+                <p>
+                    <!-- <div class="pstar"> -->
+                    <label for="planguage" class="planguage" aria-required="true">Programming language</label>
+                    <span class="star">*</span>
+                <!-- </div> -->
+                    <br>
+                    <div>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">C++</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">C</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">Java</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">Python</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">HTML</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">CSS</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">Javascript</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">C#</label><br>
+                        <input type="checkbox" name="check" id="agree">
+                        <label for="agree">SQL</label><br>
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="rating">
+    <div>
+        <form action="/submit-form">
+            <div>
+                <p>
+                    <!-- <div class="rstar"> -->
+                    <label for="rating" class="Rating" aria-required="true">Rating</label>
+                    <span class="star">*</span>
+                <!-- </div> -->
+                    <br>
+                    <div>
+                        <input type="radio" name="rating" id="one" value="one">
+                        <label for="one">1</label><br>
+                        <input type="radio" name="rating" id="two" value="two">
+                        <label for="two">2</label><br>
+                        <input type="radio" name="rating" id="three" value="three">
+                        <label for="three">3</label><br>
+                        <input type="radio" name="rating" id="four" value="four">
+                        <label for="four">4</label><br>
+                        <input type="radio" name="rating" id="five" value="five">
+                        <label for="five">5</label><br>
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+ <div><a href="/submit" class="ButtoN" target="_blank">Submit</a></div>
+   
+    <a href="/clearform" class="CleaR" target="_blank">clear Form</a>
+    
+    <div class="instruction">Never submit passwords through Google Forms.</div>
+</div>
+<div class="footer">This content is neither created nor endorsed by Google.
+    <a href="report">Report Abuse</a>-
+    <a href="Terms">Terms of service</a>-
+    <a href="privacy">Privacy Policy</a>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
