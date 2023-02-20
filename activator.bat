@@ -1,5 +1,3 @@
-pip install virtualenv
-virtualenv venv
-venv\scripts\activate
-pip install django
+pip install -r requirements.txt
+cd degoogle-forms
 python manage.py runserver
