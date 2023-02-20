@@ -23,8 +23,11 @@ def signuppage(request):
 
 @login_required(login_url='login')
 def homepage(request):
+    if request.method=='POST':
+        print(request.POST)
+        return HttpResponse('Form submitted succesfully')
     print(request.user.username)
-    return render(request,'home.html')
+    return render(request,'deform.html')
 
 def loginpage(request):
     if request.method=="POST":

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="deform.css">
+<link rel="stylesheet" href="{% static 'css/deform.css' %}">
 </head>
 <body>
 
@@ -11,7 +12,8 @@
 <p>The name and photo associated with your google account will be recorded when you upload files and submit this form .Only the email you enter is part of your response.</p>
 
 <div class="container">
-  <form action="/action_page">
+  <form action="#" method="post">
+    {% csrf_token %} 
     <div class="row">
       <div class="col-25">
         <label for="name">Name</label>
@@ -83,7 +85,7 @@
           <div class="overSelect"></div>
         </div>
         
-        <div id="checkboxes">
+        <div id="checkboxes" name="checkboxes">
           <label for="c++">
             <input type="checkbox" id="c++" />C++</label>
           <label for="c">
