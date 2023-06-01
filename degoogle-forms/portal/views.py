@@ -2,8 +2,9 @@ from django.shortcuts import render, HttpResponse,redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required
-import csv
-# Create your views here.
+import csv,sqlite3
+
+
 def signuppage(request):
     if request.method=='POST':
         uname = request.POST.get("username")
@@ -25,14 +26,20 @@ def signuppage(request):
 def homepage(request):
     if request.method=='POST':
         recieved_data =dict(request.POST)
-        with open('data.csv', mode='a') as file:
-            writer = csv.writer(file)
-            writer.writerow(
-                (recieved_data["csrfmiddlewaretoken"][0],request.user.username,recieved_data['name'][0],recieved_data['usn'][0],recieved_data['email'][0],
-                 recieved_data['semester'][0],recieved_data['branch'][0],recieved_data["Rating"][0],recieved_data["subject"][0],*recieved_data['programming-language'])
-            )
-        return HttpResponse('Form submitted succesfully')
-    print(request.user.username)
+        data = (request.user.username,recieved_data['name'][0],recieved_data['usn'][0],recieved_data['email'][0],recieved_data['semester'][0],recieved_data['branch'][0],
+                recieved_data["Rating"][0],recieved_data["subject"][0]," ".join(recieved_data['programming-language']),recieved_data["csrfmiddlewaretoken"][0])
+        
+        con = sqlite3.connect('data.db')
+        cursor = con.cursor()
+
+        try:
+            cursor.execute("INSERT INTO user_response VALUES (?,?,?,?,?,?,?,?,?,?)",data)
+        except:
+            print(data)
+
+        con.commit()
+        con.close()
+
     return render(request,'deform.html')
 
 def loginpage(request):
